@@ -3,6 +3,10 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nu               " 打开行提示
 "color asmanian2     " 默认颜色
+set expandtab        "把tab转换成空格
+set shiftwidth=4     "When auto-indenting, indent by this much.
+set softtabstop=4    "Make Vim treat <Tab> key as 4 spaces, but respect hard Tabs.
+set ignorecase       "忽略大小写
 set guifont=Courier_New:h10:cANSI   " 字体设置
 syntax on           " syntax on
 set nocompatible     " 不要使用vi的键盘模式，而是vim自己的
