@@ -30,6 +30,9 @@ set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936" 设定默认解码
 set enc=utf-8         " 设定编码
 set fileencodings=ucs-bom,utf-8,chinese
 set foldmethod=indent "开启折叠
+set expandtab  
+set tabstop=4 
+set shiftwidth=4
 	
 
 func SetTitle() 
